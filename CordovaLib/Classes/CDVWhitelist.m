@@ -33,7 +33,7 @@
 
 @synthesize whitelist, expandedWhitelist, allowAll;
 
-# (id) initWithArray:(NSArray*)array
++ (id) initWithArray:(NSArray*)array
 {
     self = [CDVWhitelist new];
     if (self) {
