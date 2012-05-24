@@ -33,9 +33,9 @@
 
 @synthesize whitelist, expandedWhitelist, allowAll;
 
-- (id) initWithArray:(NSArray*)array
++ (id) initWithArray:(NSArray*)array
 {
-    self = [super init];
+    self = [CDVWhitelist new];
     if (self) {
         self.whitelist = array;
         self.expandedWhitelist = nil;
